@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eaf2f8;
+    text-align: center;
+    padding: 20px;
+}
+
+.game {
+    max-width: 350px;
+    margin: auto;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.board button {
+    height: 100px;
+    font-size: 35px;
+    background: white;
+    border: 2px solid #263849;
+    cursor: pointer;
+}
+
+.restart {
+    margin-top: 20px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
